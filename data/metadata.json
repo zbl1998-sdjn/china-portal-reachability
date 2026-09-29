@@ -1,0 +1,316 @@
+{
+  "name": "Network-layer reachability of Chinese official portals from outside mainland China",
+  "description": "Per-probe DNS, ping and TLS-handshake measurements against ten Chinese government and reference hosts, run on RIPE Atlas under research credits granted in ticket #1094691. Every row is one probe run: no scoring, no aggregation, no reachability verdict — the readings are published so the analysis can be recomputed independently.",
+  "license": "CC-BY-4.0",
+  "creditsSource": "RIPE NCC research credits, ticket #1094691 (granted 2026-08-26)",
+  "measurementWindow": {
+    "from": "2026-08-26T11:29:49.000Z",
+    "to": "2026-09-09T05:42:54.000Z"
+  },
+  "builtAt": "2026-09-09T14:29:22.415Z",
+  "measurementIds": [
+    204800558,
+    204800655,
+    204800673,
+    204800701,
+    204800712,
+    204800742,
+    204800767,
+    204800790,
+    204800793,
+    204800803,
+    204800819,
+    204800870,
+    204800883,
+    204800914,
+    204800925,
+    204800945,
+    204800948,
+    204800952,
+    204800961,
+    204800976,
+    204800988,
+    204801673,
+    204801688,
+    204801696,
+    204801704,
+    204801709,
+    204801717,
+    204801727,
+    204801733,
+    204801737,
+    204801747
+  ],
+  "targets": [
+    "credit.customs.gov.cn",
+    "cx.cnca.cn",
+    "openstd.samr.gov.cn",
+    "sbj.cnipa.gov.cn",
+    "wenshu.court.gov.cn",
+    "www.baidu.com",
+    "www.creditchina.gov.cn",
+    "www.gov.cn",
+    "www.gsxt.gov.cn",
+    "zxgk.court.gov.cn"
+  ],
+  "probeCountries": [
+    "AT",
+    "AU",
+    "BG",
+    "BR",
+    "CH",
+    "CY",
+    "CZ",
+    "DE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "HK",
+    "ID",
+    "IL",
+    "IN",
+    "IR",
+    "IT",
+    "JP",
+    "KR",
+    "KZ",
+    "MD",
+    "NL",
+    "PL",
+    "RO",
+    "RS",
+    "RU",
+    "SE",
+    "SG",
+    "TR",
+    "UA",
+    "US"
+  ],
+  "probeCount": 621,
+  "rowCount": 50248,
+  "privacyNote": "RIPE Atlas probes are largely volunteer-hosted on residential connections. This dataset carries probe id, country and ASN only; no coordinates, addresses or host identities are included.",
+  "limitations": [
+    "Network-layer only. A completed TLS handshake does not mean the site returned content; an HTTP 403 is invisible here.",
+    "Probe coverage is uneven by country and reflects RIPE Atlas volunteer distribution, not population or trade volume.",
+    "Absence of a reading at a given timestamp can mean probe downtime rather than target unreachability."
+  ],
+  "summary": {
+    "note": "Derived from the rows in this file; recomputable from them. ping success = at least one packet received; sslcert success = handshake completed; dns success = at least one answer.",
+    "officialPortals": {
+      "ping": {
+        "succeeded": 8123,
+        "attempted": 13315,
+        "successRate": 61
+      },
+      "sslcert": {
+        "succeeded": 12785,
+        "attempted": 13306,
+        "successRate": 96.1
+      },
+      "dns": {
+        "succeeded": 13531,
+        "attempted": 13531,
+        "successRate": 100
+      }
+    },
+    "controls": {
+      "ping": {
+        "succeeded": 3447,
+        "attempted": 3459,
+        "successRate": 99.7
+      },
+      "sslcert": {
+        "succeeded": 3213,
+        "attempted": 3251,
+        "successRate": 98.8
+      },
+      "dns": {
+        "succeeded": 3386,
+        "attempted": 3386,
+        "successRate": 100
+      }
+    },
+    "perHost": {
+      "www.gsxt.gov.cn": {
+        "ping": {
+          "succeeded": 1592,
+          "attempted": 1658,
+          "successRate": 96
+        },
+        "sslcert": {
+          "succeeded": 1623,
+          "attempted": 1726,
+          "successRate": 94
+        },
+        "dns": {
+          "succeeded": 1789,
+          "attempted": 1789,
+          "successRate": 100
+        }
+      },
+      "www.creditchina.gov.cn": {
+        "ping": {
+          "succeeded": 1718,
+          "attempted": 1726,
+          "successRate": 99.5
+        },
+        "sslcert": {
+          "succeeded": 1606,
+          "attempted": 1679,
+          "successRate": 95.7
+        },
+        "dns": {
+          "succeeded": 1764,
+          "attempted": 1764,
+          "successRate": 100
+        }
+      },
+      "wenshu.court.gov.cn": {
+        "ping": {
+          "succeeded": 0,
+          "attempted": 1703,
+          "successRate": 0
+        },
+        "sslcert": {
+          "succeeded": 1629,
+          "attempted": 1641,
+          "successRate": 99.3
+        },
+        "dns": {
+          "succeeded": 1667,
+          "attempted": 1667,
+          "successRate": 100
+        }
+      },
+      "zxgk.court.gov.cn": {
+        "ping": {
+          "succeeded": 0,
+          "attempted": 1621,
+          "successRate": 0
+        },
+        "sslcert": {
+          "succeeded": 1531,
+          "attempted": 1618,
+          "successRate": 94.6
+        },
+        "dns": {
+          "succeeded": 1564,
+          "attempted": 1564,
+          "successRate": 100
+        }
+      },
+      "credit.customs.gov.cn": {
+        "ping": {
+          "succeeded": 1608,
+          "attempted": 1667,
+          "successRate": 96.5
+        },
+        "sslcert": {
+          "succeeded": 1534,
+          "attempted": 1658,
+          "successRate": 92.5
+        },
+        "dns": {
+          "succeeded": 1602,
+          "attempted": 1602,
+          "successRate": 100
+        }
+      },
+      "sbj.cnipa.gov.cn": {
+        "ping": {
+          "succeeded": 1577,
+          "attempted": 1580,
+          "successRate": 99.8
+        },
+        "sslcert": {
+          "succeeded": 1563,
+          "attempted": 1623,
+          "successRate": 96.3
+        },
+        "dns": {
+          "succeeded": 1787,
+          "attempted": 1787,
+          "successRate": 100
+        }
+      },
+      "openstd.samr.gov.cn": {
+        "ping": {
+          "succeeded": 0,
+          "attempted": 1650,
+          "successRate": 0
+        },
+        "sslcert": {
+          "succeeded": 1632,
+          "attempted": 1691,
+          "successRate": 96.5
+        },
+        "dns": {
+          "succeeded": 1587,
+          "attempted": 1587,
+          "successRate": 100
+        }
+      },
+      "cx.cnca.cn": {
+        "ping": {
+          "succeeded": 1628,
+          "attempted": 1710,
+          "successRate": 95.2
+        },
+        "sslcert": {
+          "succeeded": 1667,
+          "attempted": 1670,
+          "successRate": 99.8
+        },
+        "dns": {
+          "succeeded": 1771,
+          "attempted": 1771,
+          "successRate": 100
+        }
+      },
+      "www.gov.cn": {
+        "ping": {
+          "succeeded": 1722,
+          "attempted": 1733,
+          "successRate": 99.4
+        },
+        "sslcert": {
+          "succeeded": 1667,
+          "attempted": 1670,
+          "successRate": 99.8
+        },
+        "dns": {
+          "succeeded": 1687,
+          "attempted": 1687,
+          "successRate": 100
+        }
+      },
+      "www.baidu.com": {
+        "ping": {
+          "succeeded": 1725,
+          "attempted": 1726,
+          "successRate": 99.9
+        },
+        "sslcert": {
+          "succeeded": 1546,
+          "attempted": 1581,
+          "successRate": 97.8
+        },
+        "dns": {
+          "succeeded": 1699,
+          "attempted": 1699,
+          "successRate": 100
+        }
+      }
+    },
+    "hostsWithNoIcmpResponse": {
+      "hosts": [
+        "wenshu.court.gov.cn",
+        "zxgk.court.gov.cn",
+        "openstd.samr.gov.cn"
+      ],
+      "pingAttempts": 4974,
+      "interpretation": "These hosts completed the TLS handshake during the same window, so the absent ping reflects an ICMP policy on the host or its path, not unreachability."
+    }
+  }
+}

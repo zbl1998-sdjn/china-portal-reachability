@@ -1,0 +1,1841 @@
+{
+ "schemaVersion": 1,
+ "measurement": "official-source-overseas-reachability",
+ "measuredAt": "2026-08-26T08:07:29.002Z",
+ "method": {
+  "tool": "check-host.net public API (/check-http)",
+  "why": "节点与执行方自身网络出口无关;本机与自有代理两次尝试均因目标与对照一起失败而作废",
+  "maxNodesRequested": 12,
+  "verification": "每个目标的 report URL 可由任何人打开复核同一次测量"
+ },
+ "controlsHealthy": true,
+ "controlNote": "至少一个对照拿到 HTTP 应答,链路可用,目标侧结果可解读",
+ "results": [
+  {
+   "host": "www.gsxt.gov.cn",
+   "label": "企业登记 GSXT",
+   "role": "target",
+   "url": "https://www.gsxt.gov.cn/",
+   "requestId": "48dc4a47k930",
+   "report": "https://check-host.net/check-report/48dc4a47k930",
+   "nodeList": {
+    "br1.node.check-host.net": [
+     "br",
+     "Brazil",
+     "Sao Paulo",
+     "45.162.230.209",
+     "AS268581"
+    ],
+    "de2.node.check-host.net": [
+     "de",
+     "Germany",
+     "Langen",
+     "185.244.28.180",
+     "AS212000"
+    ],
+    "es2.node.check-host.net": [
+     "es",
+     "Spain",
+     "Barcelona",
+     "194.26.100.165",
+     "AS26141"
+    ],
+    "fi1.node.check-host.net": [
+     "fi",
+     "Finland",
+     "Helsinki",
+     "65.109.182.130",
+     "AS24940"
+    ],
+    "il2.node.check-host.net": [
+     "il",
+     "Israel",
+     "Netanya",
+     "195.211.24.52",
+     "AS206446"
+    ],
+    "in2.node.check-host.net": [
+     "in",
+     "India",
+     "Delhi",
+     "181.214.10.239",
+     "AS140641"
+    ],
+    "ir4.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Shiraz",
+     "195.234.80.20",
+     "AS212077"
+    ],
+    "pl2.node.check-host.net": [
+     "pl",
+     "Poland",
+     "Warsaw",
+     "195.137.244.1",
+     "AS214379"
+    ],
+    "ro1.node.check-host.net": [
+     "ro",
+     "Romania",
+     "Bucharest",
+     "107.149.201.15",
+     "AS211281"
+    ],
+    "si1.node.check-host.net": [
+     "si",
+     "Slovenia",
+     "Maribor",
+     "83.143.119.103",
+     "AS49592"
+    ],
+    "ua3.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Kyiv",
+     "104.28.192.94",
+     "AS13335"
+    ],
+    "vn1.node.check-host.net": [
+     "vn",
+     "Vietnam",
+     "Ho Chi Minh City",
+     "45.252.248.142",
+     "AS63760"
+    ]
+   },
+   "answered": 12,
+   "refusedAtNetwork": 0,
+   "pending": 0,
+   "perNode": {
+    "br1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.53606986999512,
+     "ip": "111.62.149.139"
+    },
+    "de2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 2.09579086303711,
+     "ip": "124.238.251.173"
+    },
+    "es2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.64332485198975,
+     "ip": "27.155.113.153"
+    },
+    "fi1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 2.00712704658508,
+     "ip": "124.238.251.172"
+    },
+    "il2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.60583901405334,
+     "ip": "27.155.113.153"
+    },
+    "in2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 2.8429708480835,
+     "ip": "124.238.251.172"
+    },
+    "ir4.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.67563700675964,
+     "ip": "124.238.251.152"
+    },
+    "pl2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.28815078735352,
+     "ip": "124.238.251.152"
+    },
+    "ro1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 5.08091688156128,
+     "ip": "116.211.128.152"
+    },
+    "si1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 0.989864110946655,
+     "ip": "59.63.226.26"
+    },
+    "ua3.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 2.6605498790741,
+     "ip": "124.238.251.173"
+    },
+    "vn1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 0.436968803405762,
+     "ip": "124.238.251.173"
+    }
+   }
+  },
+  {
+   "host": "www.creditchina.gov.cn",
+   "label": "信用中国",
+   "role": "target",
+   "url": "https://www.creditchina.gov.cn/",
+   "requestId": "48dc4af8kab5",
+   "report": "https://check-host.net/check-report/48dc4af8kab5",
+   "nodeList": {
+    "bg1.node.check-host.net": [
+     "bg",
+     "Bulgaria",
+     "Sofia",
+     "93.123.16.89",
+     "AS9028"
+    ],
+    "de2.node.check-host.net": [
+     "de",
+     "Germany",
+     "Langen",
+     "185.244.28.180",
+     "AS212000"
+    ],
+    "es1.node.check-host.net": [
+     "es",
+     "Spain",
+     "Madrid",
+     "78.40.111.151",
+     "AS215691"
+    ],
+    "fi1.node.check-host.net": [
+     "fi",
+     "Finland",
+     "Helsinki",
+     "65.109.182.130",
+     "AS24940"
+    ],
+    "hk1.node.check-host.net": [
+     "hk",
+     "Hong Kong",
+     "Hong Kong",
+     "141.98.234.68",
+     "AS207713"
+    ],
+    "id2.node.check-host.net": [
+     "id",
+     "Indonesia",
+     "Jakarta",
+     "103.42.116.205",
+     "AS141968"
+    ],
+    "in5.node.check-host.net": [
+     "in",
+     "India",
+     "Kolkata",
+     "151.243.12.65",
+     "AS149573"
+    ],
+    "ir7.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "91.102.127.2",
+     "AS213727"
+    ],
+    "it2.node.check-host.net": [
+     "it",
+     "Italy",
+     "Milan",
+     "185.25.204.60",
+     "AS60798"
+    ],
+    "pl2.node.check-host.net": [
+     "pl",
+     "Poland",
+     "Warsaw",
+     "195.137.244.1",
+     "AS214379"
+    ],
+    "se2.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "195.137.245.1",
+     "AS214379"
+    ],
+    "us5.node.check-host.net": [
+     "us",
+     "USA",
+     "New York",
+     "162.217.248.181",
+     "AS213535"
+    ]
+   },
+   "answered": 12,
+   "refusedAtNetwork": 0,
+   "pending": 0,
+   "perNode": {
+    "bg1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.68476390838623,
+     "ip": "124.238.251.180"
+    },
+    "de2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.97103500366211,
+     "ip": "27.155.113.144"
+    },
+    "es1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 2.12886095046997,
+     "ip": "124.238.251.141"
+    },
+    "fi1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.54034686088562,
+     "ip": "36.158.231.244"
+    },
+    "hk1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 7.752032995224,
+     "ip": "27.155.113.144"
+    },
+    "id2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 3.56407499313354,
+     "ip": "116.211.128.183"
+    },
+    "in5.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.71182608604431,
+     "ip": "59.63.226.13"
+    },
+    "ir7.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 6.46440005302429,
+     "ip": "124.238.251.141"
+    },
+    "it2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.70841598510742,
+     "ip": "116.211.128.183"
+    },
+    "pl2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.47782015800476,
+     "ip": "27.155.113.144"
+    },
+    "se2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.77608108520508,
+     "ip": "124.238.251.180"
+    },
+    "us5.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.38219094276428,
+     "ip": "124.238.251.141"
+    }
+   }
+  },
+  {
+   "host": "wenshu.court.gov.cn",
+   "label": "裁判文书",
+   "role": "target",
+   "url": "https://wenshu.court.gov.cn/",
+   "requestId": "48dc4b7eke3a",
+   "report": "https://check-host.net/check-report/48dc4b7eke3a",
+   "nodeList": {
+    "ca1.node.check-host.net": [
+     "ca",
+     "Canada",
+     "Vancouver",
+     "198.135.169.20",
+     "AS396993"
+    ],
+    "es1.node.check-host.net": [
+     "es",
+     "Spain",
+     "Madrid",
+     "78.40.111.151",
+     "AS215691"
+    ],
+    "ir6.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Qom",
+     "45.135.242.142",
+     "AS206596"
+    ],
+    "ir7.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "91.102.127.2",
+     "AS213727"
+    ],
+    "nl1.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Amsterdam",
+     "185.209.161.145",
+     "AS14576"
+    ],
+    "nl2.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Meppel",
+     "195.211.27.85",
+     "AS206446"
+    ],
+    "pt1.node.check-host.net": [
+     "pt",
+     "Portugal",
+     "Viana",
+     "185.83.213.25",
+     "AS44222"
+    ],
+    "se2.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "195.137.245.1",
+     "AS214379"
+    ],
+    "si1.node.check-host.net": [
+     "si",
+     "Slovenia",
+     "Maribor",
+     "83.143.119.103",
+     "AS49592"
+    ],
+    "tr2.node.check-host.net": [
+     "tr",
+     "Turkey",
+     "Istanbul",
+     "77.92.151.181",
+     "AS44620"
+    ],
+    "ua1.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Khmelnytskyi",
+     "185.86.77.126",
+     "AS201094"
+    ],
+    "us3.node.check-host.net": [
+     "us",
+     "USA",
+     "Atlanta",
+     "147.45.60.14",
+     "AS215540"
+    ]
+   },
+   "answered": 11,
+   "refusedAtNetwork": 1,
+   "pending": 0,
+   "perNode": {
+    "ca1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 0.960285902023315,
+     "ip": "124.232.185.79"
+    },
+    "es1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.76001000404358,
+     "ip": "124.232.185.79"
+    },
+    "ir6.node.check-host.net": {
+     "state": "network-fail",
+     "detail": "Connection timed out",
+     "seconds": 25.0002501010895,
+     "ip": null
+    },
+    "ir7.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.92990899085999,
+     "ip": "124.232.185.79"
+    },
+    "nl1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:35 GMT",
+     "seconds": 1.13943409919739,
+     "ip": "223.111.128.120"
+    },
+    "nl2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.72196507453918,
+     "ip": "123.6.81.98"
+    },
+    "pt1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.30028891563416,
+     "ip": "123.6.81.98"
+    },
+    "se2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.68197703361511,
+     "ip": "223.111.128.120"
+    },
+    "si1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.65095901489258,
+     "ip": "123.6.81.98"
+    },
+    "tr2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:39 GMT",
+     "seconds": 4.69558691978455,
+     "ip": "123.6.81.98"
+    },
+    "ua1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:38 GMT",
+     "seconds": 3.29131293296814,
+     "ip": "124.232.185.79"
+    },
+    "us3.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Date: Wed, 26 Aug 2026 08:06:36 GMT",
+     "seconds": 1.58073401451111,
+     "ip": "124.232.185.79"
+    }
+   }
+  },
+  {
+   "host": "zxgk.court.gov.cn",
+   "label": "执行信息",
+   "role": "target",
+   "url": "https://zxgk.court.gov.cn/",
+   "requestId": "48dc4c0ck9d0",
+   "report": "https://check-host.net/check-report/48dc4c0ck9d0",
+   "nodeList": {
+    "de1.node.check-host.net": [
+     "de",
+     "Germany",
+     "Nuremberg",
+     "142.132.174.167",
+     "AS24940"
+    ],
+    "fi1.node.check-host.net": [
+     "fi",
+     "Finland",
+     "Helsinki",
+     "65.109.182.130",
+     "AS24940"
+    ],
+    "hk1.node.check-host.net": [
+     "hk",
+     "Hong Kong",
+     "Hong Kong",
+     "141.98.234.68",
+     "AS207713"
+    ],
+    "id1.node.check-host.net": [
+     "id",
+     "Indonesia",
+     "Jakarta",
+     "178.83.180.17",
+     " AS200177"
+    ],
+    "il2.node.check-host.net": [
+     "il",
+     "Israel",
+     "Netanya",
+     "195.211.24.52",
+     "AS206446"
+    ],
+    "in5.node.check-host.net": [
+     "in",
+     "India",
+     "Kolkata",
+     "151.243.12.65",
+     "AS149573"
+    ],
+    "kz1.node.check-host.net": [
+     "kz",
+     "Kazakhstan",
+     "Karaganda",
+     "185.120.77.165",
+     "AS203087"
+    ],
+    "nl1.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Amsterdam",
+     "185.209.161.145",
+     "AS14576"
+    ],
+    "ru2.node.check-host.net": [
+     "ru",
+     "Russia",
+     "Moscow",
+     "194.26.229.20",
+     "AS210644"
+    ],
+    "tr1.node.check-host.net": [
+     "tr",
+     "Turkey",
+     "Istanbul",
+     "185.23.17.21",
+     "AS211557"
+    ],
+    "ua1.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Khmelnytskyi",
+     "185.86.77.126",
+     "AS201094"
+    ],
+    "us3.node.check-host.net": [
+     "us",
+     "USA",
+     "Atlanta",
+     "147.45.60.14",
+     "AS215540"
+    ]
+   },
+   "answered": 12,
+   "refusedAtNetwork": 0,
+   "pending": 0,
+   "perNode": {
+    "de1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.80672693252563,
+     "ip": "123.6.81.98"
+    },
+    "fi1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.20695805549622,
+     "ip": "124.232.185.79"
+    },
+    "hk1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.92020297050476,
+     "ip": "123.6.81.98"
+    },
+    "id1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 3.88157510757446,
+     "ip": "223.111.128.120"
+    },
+    "il2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 2.11838388442993,
+     "ip": "124.232.185.79"
+    },
+    "in5.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 2.25773501396179,
+     "ip": "124.232.185.79"
+    },
+    "kz1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.32308602333069,
+     "ip": "123.6.81.98"
+    },
+    "nl1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.17051482200623,
+     "ip": "124.232.185.79"
+    },
+    "ru2.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.65362405776978,
+     "ip": "124.232.185.79"
+    },
+    "tr1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.6115300655365,
+     "ip": "124.232.185.79"
+    },
+    "ua1.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 1.33217191696167,
+     "ip": "124.232.185.79"
+    },
+    "us3.node.check-host.net": {
+     "state": "http",
+     "status": 403,
+     "statusText": "Forbidden",
+     "seconds": 2.15724492073059,
+     "ip": "124.232.185.79"
+    }
+   }
+  },
+  {
+   "host": "sbj.cnipa.gov.cn",
+   "label": "商标局",
+   "role": "target",
+   "url": "https://sbj.cnipa.gov.cn/",
+   "requestId": "48dc4c59kb2",
+   "report": "https://check-host.net/check-report/48dc4c59kb2",
+   "nodeList": {
+    "at1.node.check-host.net": [
+     "at",
+     "Austria",
+     "Vienna",
+     "185.224.3.111",
+     "AS64457"
+    ],
+    "cy1.node.check-host.net": [
+     "cy",
+     "Cyprus",
+     "Larnaca",
+     "91.199.41.138",
+     "AS6866"
+    ],
+    "de2.node.check-host.net": [
+     "de",
+     "Germany",
+     "Langen",
+     "185.244.28.180",
+     "AS212000"
+    ],
+    "es1.node.check-host.net": [
+     "es",
+     "Spain",
+     "Madrid",
+     "78.40.111.151",
+     "AS215691"
+    ],
+    "il2.node.check-host.net": [
+     "il",
+     "Israel",
+     "Netanya",
+     "195.211.24.52",
+     "AS206446"
+    ],
+    "nl2.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Meppel",
+     "195.211.27.85",
+     "AS206446"
+    ],
+    "pl2.node.check-host.net": [
+     "pl",
+     "Poland",
+     "Warsaw",
+     "195.137.244.1",
+     "AS214379"
+    ],
+    "ru2.node.check-host.net": [
+     "ru",
+     "Russia",
+     "Moscow",
+     "194.26.229.20",
+     "AS210644"
+    ],
+    "se1.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "143.246.193.61",
+     "AS200019"
+    ],
+    "tr1.node.check-host.net": [
+     "tr",
+     "Turkey",
+     "Istanbul",
+     "185.23.17.21",
+     "AS211557"
+    ],
+    "us2.node.check-host.net": [
+     "us",
+     "USA",
+     "Dallas",
+     "64.72.205.76",
+     "AS215703"
+    ],
+    "us3.node.check-host.net": [
+     "us",
+     "USA",
+     "Atlanta",
+     "147.45.60.14",
+     "AS215540"
+    ]
+   },
+   "answered": 12,
+   "refusedAtNetwork": 0,
+   "pending": 0,
+   "perNode": {
+    "at1.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 2.06605100631714,
+     "ip": "168.235.193.71"
+    },
+    "cy1.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 1.61139988899231,
+     "ip": "138.113.69.133"
+    },
+    "de2.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 0.825469970703125,
+     "ip": "168.235.193.72"
+    },
+    "es1.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 2.34909605979919,
+     "ip": "168.235.193.71"
+    },
+    "il2.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 2.15413212776184,
+     "ip": "138.113.247.71"
+    },
+    "nl2.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 1.48916792869568,
+     "ip": "168.235.193.72"
+    },
+    "pl2.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 0.751102209091187,
+     "ip": "138.113.136.130"
+    },
+    "ru2.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 1.204017162323,
+     "ip": "168.235.193.72"
+    },
+    "se1.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 0.941247940063477,
+     "ip": "168.235.193.72"
+    },
+    "tr1.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 2.89017200469971,
+     "ip": "153.43.55.50"
+    },
+    "us2.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 0.834769010543823,
+     "ip": "138.113.124.82"
+    },
+    "us3.node.check-host.net": {
+     "state": "http",
+     "status": 301,
+     "statusText": "Moved Permanently",
+     "seconds": 1.38655090332031,
+     "ip": "138.113.79.46"
+    }
+   }
+  },
+  {
+   "host": "credit.customs.gov.cn",
+   "label": "海关企业信用",
+   "role": "target",
+   "url": "https://credit.customs.gov.cn/",
+   "requestId": "48dc4cafk40c",
+   "report": "https://check-host.net/check-report/48dc4cafk40c",
+   "nodeList": {
+    "bg1.node.check-host.net": [
+     "bg",
+     "Bulgaria",
+     "Sofia",
+     "93.123.16.89",
+     "AS9028"
+    ],
+    "il2.node.check-host.net": [
+     "il",
+     "Israel",
+     "Netanya",
+     "195.211.24.52",
+     "AS206446"
+    ],
+    "ir4.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Shiraz",
+     "195.234.80.20",
+     "AS212077"
+    ],
+    "it2.node.check-host.net": [
+     "it",
+     "Italy",
+     "Milan",
+     "185.25.204.60",
+     "AS60798"
+    ],
+    "ro1.node.check-host.net": [
+     "ro",
+     "Romania",
+     "Bucharest",
+     "107.149.201.15",
+     "AS211281"
+    ],
+    "se2.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "195.137.245.1",
+     "AS214379"
+    ],
+    "tr2.node.check-host.net": [
+     "tr",
+     "Turkey",
+     "Istanbul",
+     "77.92.151.181",
+     "AS44620"
+    ],
+    "ua1.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Khmelnytskyi",
+     "185.86.77.126",
+     "AS201094"
+    ],
+    "ua2.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Kyiv",
+     "91.231.182.39",
+     "AS214379"
+    ],
+    "us2.node.check-host.net": [
+     "us",
+     "USA",
+     "Dallas",
+     "64.72.205.76",
+     "AS215703"
+    ],
+    "us3.node.check-host.net": [
+     "us",
+     "USA",
+     "Atlanta",
+     "147.45.60.14",
+     "AS215540"
+    ],
+    "us5.node.check-host.net": [
+     "us",
+     "USA",
+     "New York",
+     "162.217.248.181",
+     "AS213535"
+    ]
+   },
+   "answered": 11,
+   "refusedAtNetwork": 1,
+   "pending": 0,
+   "perNode": {
+    "bg1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 4.21007204055786,
+     "ip": "39.155.229.197"
+    },
+    "il2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 8.23863911628723,
+     "ip": "1.202.143.197"
+    },
+    "ir4.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 3.87927794456482,
+     "ip": "39.155.229.197"
+    },
+    "it2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 4.6563708782196,
+     "ip": "39.155.229.197"
+    },
+    "ro1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.3279972076416,
+     "ip": "1.202.143.197"
+    },
+    "se2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 4.58796882629395,
+     "ip": "1.202.143.197"
+    },
+    "tr2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 2.46123600006104,
+     "ip": "1.202.143.197"
+    },
+    "ua1.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 10.8303821086884,
+     "ip": "1.202.143.197"
+    },
+    "ua2.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 2.79485893249512,
+     "ip": "1.202.143.197"
+    },
+    "us2.node.check-host.net": {
+     "state": "network-fail",
+     "detail": "Connection timed out",
+     "seconds": 25.0007979869843,
+     "ip": "39.155.229.197"
+    },
+    "us3.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 2.00668215751648,
+     "ip": "1.202.143.197"
+    },
+    "us5.node.check-host.net": {
+     "state": "http",
+     "status": 412,
+     "statusText": "Precondition Failed",
+     "seconds": 1.5054669380188,
+     "ip": "39.155.229.197"
+    }
+   }
+  },
+  {
+   "host": "openstd.samr.gov.cn",
+   "label": "国家标准全文",
+   "role": "target",
+   "url": "https://openstd.samr.gov.cn/",
+   "requestId": "48dc4d01k614",
+   "report": "https://check-host.net/check-report/48dc4d01k614",
+   "nodeList": {
+    "at1.node.check-host.net": [
+     "at",
+     "Austria",
+     "Vienna",
+     "185.224.3.111",
+     "AS64457"
+    ],
+    "ch1.node.check-host.net": [
+     "ch",
+     "Switzerland",
+     "Zurich",
+     "141.255.165.104",
+     "AS51852"
+    ],
+    "de2.node.check-host.net": [
+     "de",
+     "Germany",
+     "Langen",
+     "185.244.28.180",
+     "AS212000"
+    ],
+    "es1.node.check-host.net": [
+     "es",
+     "Spain",
+     "Madrid",
+     "78.40.111.151",
+     "AS215691"
+    ],
+    "fi1.node.check-host.net": [
+     "fi",
+     "Finland",
+     "Helsinki",
+     "65.109.182.130",
+     "AS24940"
+    ],
+    "hk1.node.check-host.net": [
+     "hk",
+     "Hong Kong",
+     "Hong Kong",
+     "141.98.234.68",
+     "AS207713"
+    ],
+    "in2.node.check-host.net": [
+     "in",
+     "India",
+     "Delhi",
+     "181.214.10.239",
+     "AS140641"
+    ],
+    "ir1.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "185.105.238.209",
+     "AS47430"
+    ],
+    "ir5.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "88.135.75.5",
+     "AS214431"
+    ],
+    "ir8.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "178.239.146.199",
+     "AS214361"
+    ],
+    "pl2.node.check-host.net": [
+     "pl",
+     "Poland",
+     "Warsaw",
+     "195.137.244.1",
+     "AS214379"
+    ],
+    "se2.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "195.137.245.1",
+     "AS214379"
+    ]
+   },
+   "answered": 12,
+   "refusedAtNetwork": 0,
+   "pending": 0,
+   "perNode": {
+    "at1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 1.21529197692871,
+     "ip": "111.203.12.48"
+    },
+    "ch1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 1.33574199676514,
+     "ip": "111.203.12.48"
+    },
+    "de2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 2.86622285842896,
+     "ip": "111.203.12.48"
+    },
+    "es1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 1.56404089927673,
+     "ip": "111.203.12.48"
+    },
+    "fi1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 4.0814208984375,
+     "ip": "111.203.12.48"
+    },
+    "hk1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 1.32659411430359,
+     "ip": "111.203.12.48"
+    },
+    "in2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 3.00513100624084,
+     "ip": "111.203.12.48"
+    },
+    "ir1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 2.74626517295837,
+     "ip": "111.203.12.48"
+    },
+    "ir5.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 5.6147620677948,
+     "ip": "111.203.12.48"
+    },
+    "ir8.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 2.70713019371033,
+     "ip": "111.203.12.48"
+    },
+    "pl2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 2.14762091636658,
+     "ip": "111.203.12.48"
+    },
+    "se2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "Server: nginx",
+     "seconds": 3.64089798927307,
+     "ip": "111.203.12.48"
+    }
+   }
+  },
+  {
+   "host": "cx.cnca.cn",
+   "label": "CCC 认证查询",
+   "role": "target",
+   "url": "https://cx.cnca.cn/",
+   "requestId": "48dc4d49k3b7",
+   "report": "https://check-host.net/check-report/48dc4d49k3b7",
+   "nodeList": {
+    "ch1.node.check-host.net": [
+     "ch",
+     "Switzerland",
+     "Zurich",
+     "141.255.165.104",
+     "AS51852"
+    ],
+    "de4.node.check-host.net": [
+     "de",
+     "Germany",
+     "Frankfurt",
+     "185.37.147.117",
+     "AS34549"
+    ],
+    "il2.node.check-host.net": [
+     "il",
+     "Israel",
+     "Netanya",
+     "195.211.24.52",
+     "AS206446"
+    ],
+    "in5.node.check-host.net": [
+     "in",
+     "India",
+     "Kolkata",
+     "151.243.12.65",
+     "AS149573"
+    ],
+    "ir1.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "185.105.238.209",
+     "AS47430"
+    ],
+    "kz1.node.check-host.net": [
+     "kz",
+     "Kazakhstan",
+     "Karaganda",
+     "185.120.77.165",
+     "AS203087"
+    ],
+    "nl1.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Amsterdam",
+     "185.209.161.145",
+     "AS14576"
+    ],
+    "nl2.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Meppel",
+     "195.211.27.85",
+     "AS206446"
+    ],
+    "pt1.node.check-host.net": [
+     "pt",
+     "Portugal",
+     "Viana",
+     "185.83.213.25",
+     "AS44222"
+    ],
+    "ro1.node.check-host.net": [
+     "ro",
+     "Romania",
+     "Bucharest",
+     "107.149.201.15",
+     "AS211281"
+    ],
+    "ru1.node.check-host.net": [
+     "ru",
+     "Russia",
+     "Moscow",
+     "185.130.104.238",
+     "AS14576"
+    ],
+    "tr2.node.check-host.net": [
+     "tr",
+     "Turkey",
+     "Istanbul",
+     "77.92.151.181",
+     "AS44620"
+    ]
+   },
+   "answered": 11,
+   "refusedAtNetwork": 1,
+   "pending": 0,
+   "perNode": {
+    "ch1.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 5.31199312210083,
+     "ip": "124.238.251.173"
+    },
+    "de4.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 3.15471792221069,
+     "ip": "116.211.128.152"
+    },
+    "il2.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 2.53832507133484,
+     "ip": "124.238.251.172"
+    },
+    "in5.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 4.75744819641113,
+     "ip": "124.238.251.173"
+    },
+    "ir1.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 5.07229089736938,
+     "ip": "116.211.128.152"
+    },
+    "kz1.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 4.59005808830261,
+     "ip": "124.238.251.172"
+    },
+    "nl1.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 3.59678101539612,
+     "ip": "27.155.113.153"
+    },
+    "nl2.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 3.4367618560791,
+     "ip": "116.211.128.152"
+    },
+    "pt1.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 5.10404706001282,
+     "ip": "124.238.251.152"
+    },
+    "ro1.node.check-host.net": {
+     "state": "network-fail",
+     "detail": "Connection timed out",
+     "seconds": 8.34910202026367,
+     "ip": null
+    },
+    "ru1.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 1.65668201446533,
+     "ip": "116.211.128.152"
+    },
+    "tr2.node.check-host.net": {
+     "state": "http",
+     "status": 521,
+     "statusText": "Server: nginx",
+     "seconds": 1.19462418556213,
+     "ip": "124.238.251.152"
+    }
+   }
+  },
+  {
+   "host": "www.gov.cn",
+   "label": "对照·中国政府门户",
+   "role": "control",
+   "url": "https://www.gov.cn/",
+   "requestId": "48dc4e89k2c4",
+   "report": "https://check-host.net/check-report/48dc4e89k2c4",
+   "nodeList": {
+    "br1.node.check-host.net": [
+     "br",
+     "Brazil",
+     "Sao Paulo",
+     "45.162.230.209",
+     "AS268581"
+    ],
+    "fr2.node.check-host.net": [
+     "fr",
+     "France",
+     "Paris",
+     "195.154.114.92",
+     "AS12876"
+    ],
+    "il1.node.check-host.net": [
+     "il",
+     "Israel",
+     "Tel Aviv",
+     "94.154.123.196",
+     "AS206446"
+    ],
+    "in2.node.check-host.net": [
+     "in",
+     "India",
+     "Delhi",
+     "181.214.10.239",
+     "AS140641"
+    ],
+    "ir1.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "185.105.238.209",
+     "AS47430"
+    ],
+    "ir8.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Tehran",
+     "178.239.146.199",
+     "AS214361"
+    ],
+    "md1.node.check-host.net": [
+     "md",
+     "Moldova",
+     "Chisinau",
+     "178.17.171.235",
+     "AS43289"
+    ],
+    "se1.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "143.246.193.61",
+     "AS200019"
+    ],
+    "sg1.node.check-host.net": [
+     "sg",
+     "Singapore",
+     "Singapore",
+     "217.15.166.168",
+     "AS141995"
+    ],
+    "ua3.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Kyiv",
+     "104.28.192.94",
+     "AS13335"
+    ],
+    "us3.node.check-host.net": [
+     "us",
+     "USA",
+     "Atlanta",
+     "147.45.60.14",
+     "AS215540"
+    ],
+    "vn1.node.check-host.net": [
+     "vn",
+     "Vietnam",
+     "Ho Chi Minh City",
+     "45.252.248.142",
+     "AS63760"
+    ]
+   },
+   "answered": 11,
+   "refusedAtNetwork": 1,
+   "pending": 0,
+   "perNode": {
+    "br1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.875455141067505,
+     "ip": "156.225.111.19"
+    },
+    "fr2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.49461197853088,
+     "ip": "154.85.94.31"
+    },
+    "il1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.657819986343384,
+     "ip": "129.227.71.59"
+    },
+    "in2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.3128969669342,
+     "ip": "154.85.93.72"
+    },
+    "ir1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.567575931549072,
+     "ip": "156.225.108.40"
+    },
+    "ir8.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.305665016174316,
+     "ip": "154.85.93.72"
+    },
+    "md1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.656761884689331,
+     "ip": "154.85.93.72"
+    },
+    "se1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.958481073379517,
+     "ip": "154.85.94.29"
+    },
+    "sg1.node.check-host.net": {
+     "state": "network-fail",
+     "detail": "Connection timed out",
+     "seconds": 24.993791103363,
+     "ip": "154.85.93.71"
+    },
+    "ua3.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.311951875686646,
+     "ip": "156.225.108.41"
+    },
+    "us3.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.105816125869751,
+     "ip": "156.225.111.237"
+    },
+    "vn1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 0.169563055038452,
+     "ip": "129.227.71.60"
+    }
+   }
+  },
+  {
+   "host": "www.baidu.com",
+   "label": "对照·中国商业站",
+   "role": "control",
+   "url": "https://www.baidu.com/",
+   "requestId": "48dc4ec7k821",
+   "report": "https://check-host.net/check-report/48dc4ec7k821",
+   "nodeList": {
+    "bg1.node.check-host.net": [
+     "bg",
+     "Bulgaria",
+     "Sofia",
+     "93.123.16.89",
+     "AS9028"
+    ],
+    "es1.node.check-host.net": [
+     "es",
+     "Spain",
+     "Madrid",
+     "78.40.111.151",
+     "AS215691"
+    ],
+    "fi1.node.check-host.net": [
+     "fi",
+     "Finland",
+     "Helsinki",
+     "65.109.182.130",
+     "AS24940"
+    ],
+    "hu1.node.check-host.net": [
+     "hu",
+     "Hungary",
+     "Nyiregyhaza",
+     "45.9.168.235",
+     "AS211619"
+    ],
+    "ir3.node.check-host.net": [
+     "ir",
+     "Iran",
+     "Shiraz",
+     "77.104.108.3",
+     "AS213953"
+    ],
+    "it2.node.check-host.net": [
+     "it",
+     "Italy",
+     "Milan",
+     "185.25.204.60",
+     "AS60798"
+    ],
+    "md1.node.check-host.net": [
+     "md",
+     "Moldova",
+     "Chisinau",
+     "178.17.171.235",
+     "AS43289"
+    ],
+    "nl2.node.check-host.net": [
+     "nl",
+     "Netherlands",
+     "Meppel",
+     "195.211.27.85",
+     "AS206446"
+    ],
+    "ru3.node.check-host.net": [
+     "ru",
+     "Russia",
+     "Saint Petersburg",
+     "185.221.199.82",
+     "AS210644"
+    ],
+    "se2.node.check-host.net": [
+     "se",
+     "Sweden",
+     "Stockholm",
+     "195.137.245.1",
+     "AS214379"
+    ],
+    "ua3.node.check-host.net": [
+     "ua",
+     "Ukraine",
+     "Kyiv",
+     "104.28.192.94",
+     "AS13335"
+    ],
+    "us2.node.check-host.net": [
+     "us",
+     "USA",
+     "Dallas",
+     "64.72.205.76",
+     "AS215703"
+    ]
+   },
+   "answered": 12,
+   "refusedAtNetwork": 0,
+   "pending": 0,
+   "perNode": {
+    "bg1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.4356791973114,
+     "ip": "103.235.46.102"
+    },
+    "es1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.5043580532074,
+     "ip": "103.235.46.115"
+    },
+    "fi1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 2.01131319999695,
+     "ip": "103.235.46.102"
+    },
+    "hu1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.53539109230042,
+     "ip": "103.235.46.102"
+    },
+    "ir3.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 2.04430794715881,
+     "ip": "103.235.46.115"
+    },
+    "it2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.62239909172058,
+     "ip": "103.235.46.115"
+    },
+    "md1.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.33766102790833,
+     "ip": "103.235.46.115"
+    },
+    "nl2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.47790098190308,
+     "ip": "103.235.46.115"
+    },
+    "ru3.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.78382301330566,
+     "ip": "103.235.46.115"
+    },
+    "se2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.93749499320984,
+     "ip": "103.235.46.102"
+    },
+    "ua3.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.51958894729614,
+     "ip": "103.235.46.102"
+    },
+    "us2.node.check-host.net": {
+     "state": "http",
+     "status": 200,
+     "statusText": "OK",
+     "seconds": 1.45341086387634,
+     "ip": "103.235.46.102"
+    }
+   }
+  }
+ ]
+}
